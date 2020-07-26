@@ -1,0 +1,830 @@
+<!-- 
+XSLT: ../log/shoptet-faktury.xslt
+
+0: Není vyplněno označení provozovny. [VF1-0119/2020]
+1: Není vyplněno označení provozovny. [VF1-0119/2020]
+2: Není vyplněno označení provozovny. [VF1-0119/2020]
+3: Není vyplněno označení provozovny. [VF1-0119/2020]
+4: Není vyplněno označení provozovny. [VF1-0119/2020]
+5: Není vyplněno označení provozovny. [VF1-0119/2020]
+6: Není vyplněno označení provozovny. [VF1-0119/2020]
+7: Není vyplněno označení provozovny. [VF1-0119/2020]
+8: Není vyplněno označení provozovny. [VF1-0119/2020]
+9: Není vyplněno označení provozovny. [VF1-0119/2020]
+10: Není vyplněno označení provozovny. [VF1-0119/2020]
+11: Není vyplněno označení provozovny. [VF1-0119/2020]
+12: Není vyplněno označení provozovny. [VF1-0119/2020]
+13: Není vyplněno označení provozovny. [VF1-0119/2020]
+14: Není vyplněno označení provozovny. [VF1-0119/2020]
+15: Není vyplněno označení provozovny. [VF1-0119/2020]
+16: Není vyplněno označení provozovny. [VF1-0119/2020]
+17: Není vyplněno označení provozovny. [VF1-0119/2020]
+18: Není vyplněno označení provozovny. [VF1-0119/2020]
+19: Není vyplněno označení provozovny. [VF1-0119/2020]
+20: Není vyplněno označení provozovny. [VF1-0119/2020]
+21: Není vyplněno označení provozovny. [VF1-0119/2020]
+22: Není vyplněno označení provozovny. [VF1-0119/2020]
+23: Není vyplněno označení provozovny. [VF1-0119/2020]
+24: Není vyplněno označení provozovny. [VF1-0119/2020]
+25: Není vyplněno označení provozovny. [VF1-0119/2020]
+26: Není vyplněno označení provozovny. [VF1-0119/2020]
+ --><?xml version="1.0" encoding="utf-8"?>
+<winstrom xmlns:str="http://www.stormware.cz/schema/version_2/storage.xsd" xmlns:ipm="http://www.stormware.cz/schema/version_2/intParam.xsd" xmlns:ctg="http://www.stormware.cz/schema/version_2/category.xsd" xmlns:lCon="http://www.stormware.cz/schema/version_2/list_contract.xsd" xmlns:prm="http://www.stormware.cz/schema/version_2/parameter.xsd" xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd" xmlns:con="http://www.stormware.cz/schema/version_2/contract.xsd" xmlns:pro="http://www.stormware.cz/schema/version_2/prodejka.xsd" xmlns:vyr="http://www.stormware.cz/schema/version_2/vyroba.xsd" xmlns:pre="http://www.stormware.cz/schema/version_2/prevodka.xsd" xmlns:bal="http://www.stormware.cz/schema/version_2/balance.xsd" xmlns:pri="http://www.stormware.cz/schema/version_2/prijemka.xsd" xmlns:vyd="http://www.stormware.cz/schema/version_2/vydejka.xsd" xmlns:enq="http://www.stormware.cz/schema/version_2/enquiry.xsd" xmlns:ofr="http://www.stormware.cz/schema/version_2/offer.xsd" xmlns:ord="http://www.stormware.cz/schema/version_2/order.xsd" xmlns:stk="http://www.stormware.cz/schema/version_2/stock.xsd" xmlns:int="http://www.stormware.cz/schema/version_2/intDoc.xsd" xmlns:vch="http://www.stormware.cz/schema/version_2/voucher.xsd" xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" xmlns:acu="http://www.stormware.cz/schema/version_2/accountingunit.xsd" xmlns:lAdb="http://www.stormware.cz/schema/version_2/list_addBook.xsd" xmlns:lStk="http://www.stormware.cz/schema/version_2/list_stock.xsd" xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:rdc="http://www.stormware.cz/schema/version_2/documentresponse.xsd" xmlns:rsp="http://www.stormware.cz/schema/version_2/response.xsd" atomic="false" source="pohoda" version="1.0">
+<faktura-vydana>
+    <varSym>26062020002201</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-06-26</datVyst>
+    <duzpPuv>2020-06-26</duzpPuv>
+    <duzpUcto>2020-06-26</duzpUcto>
+    <datSplat/>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>MP TRADE INVEST, s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>true</bezPolozek>
+    <sumOsv/>
+    <sumZklZakl>600.25</sumZklZakl>
+    <sumDphZakl>126.05</sumDphZakl>
+    <sumZklSniz/>
+    <sumDphSniz/>
+    <sumZklSniz2/>
+    <sumDphSniz2/>
+    <popis>Ba Natural 95</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>01921200626279</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-06-26</datVyst>
+    <duzpPuv>2020-06-26</duzpPuv>
+    <duzpUcto>2020-06-26</duzpUcto>
+    <datSplat/>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>UNIPETROL RPA, s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic>27597075</ic>
+    <dic/>
+    <bezPolozek>true</bezPolozek>
+    <sumOsv/>
+    <sumZklZakl>611.57</sumZklZakl>
+    <sumDphZakl>128.43</sumDphZakl>
+    <sumZklSniz/>
+    <sumDphSniz/>
+    <sumZklSniz2/>
+    <sumDphSniz2/>
+    <popis>EFECTA 95</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>02441200625226</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-06-25</datVyst>
+    <duzpPuv>2020-06-25</duzpPuv>
+    <duzpUcto>2020-06-25</duzpUcto>
+    <datSplat/>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>UNIPETROL RPA, s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic>27597075</ic>
+    <dic/>
+    <bezPolozek>true</bezPolozek>
+    <sumOsv/>
+    <sumZklZakl>168.43</sumZklZakl>
+    <sumDphZakl>35.37</sumDphZakl>
+    <sumZklSniz/>
+    <sumDphSniz/>
+    <sumZklSniz2/>
+    <sumDphSniz2/>
+    <popis>EFECTA 95</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>0087</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-06-25</datVyst>
+    <duzpPuv>2020-06-25</duzpPuv>
+    <duzpUcto>2020-06-25</duzpUcto>
+    <datSplat/>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>RoBiN OIL s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>true</bezPolozek>
+    <sumOsv/>
+    <sumZklZakl>234.46</sumZklZakl>
+    <sumDphZakl>49.24</sumDphZakl>
+    <sumZklSniz/>
+    <sumDphSniz/>
+    <sumZklSniz2/>
+    <sumDphSniz2/>
+    <popis>Natura195</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>8777560</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-06-17</datVyst>
+    <duzpPuv>2020-06-17</duzpPuv>
+    <duzpUcto>2020-06-17</duzpUcto>
+    <datSplat/>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>RoBiN OIL s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>true</bezPolozek>
+    <sumOsv/>
+    <sumZklZakl>249.92</sumZklZakl>
+    <sumDphZakl>52.48</sumDphZakl>
+    <sumZklSniz/>
+    <sumDphSniz/>
+    <sumZklSniz2/>
+    <sumDphSniz2/>
+    <popis>RoBiN OIL s.r.o.</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>21012200613454</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-06-13</datVyst>
+    <duzpPuv>2020-06-13</duzpPuv>
+    <duzpUcto>2020-06-13</duzpUcto>
+    <datSplat/>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>OMV Česká republika, s. r. o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>true</bezPolozek>
+    <sumOsv/>
+    <sumZklZakl>182.15</sumZklZakl>
+    <sumDphZakl>38.25</sumDphZakl>
+    <sumZklSniz/>
+    <sumDphSniz/>
+    <sumZklSniz2/>
+    <sumDphSniz2/>
+    <popis>MaxxMot1on 95</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>0033</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-06-11</datVyst>
+    <duzpPuv>2020-06-11</duzpPuv>
+    <duzpUcto>2020-06-11</duzpUcto>
+    <datSplat/>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>RoBiN OIL s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>true</bezPolozek>
+    <sumOsv/>
+    <sumZklZakl>247.77</sumZklZakl>
+    <sumDphZakl>52.03</sumDphZakl>
+    <sumZklSniz/>
+    <sumDphSniz/>
+    <sumZklSniz2/>
+    <sumDphSniz2/>
+    <popis>Natura195</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>24052020000551</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-05-24</datVyst>
+    <duzpPuv>2020-05-24</duzpPuv>
+    <duzpUcto>2020-05-24</duzpUcto>
+    <datSplat/>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>MP TRADE INVEST, s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>true</bezPolozek>
+    <sumOsv/>
+    <sumZklZakl>693.88</sumZklZakl>
+    <sumDphZakl>145.72</sumDphZakl>
+    <sumZklSniz/>
+    <sumDphSniz/>
+    <sumZklSniz2/>
+    <sumDphSniz2/>
+    <popis>Natural 95</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>15062020000211</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-06-15</datVyst>
+    <duzpPuv>2020-06-15</duzpPuv>
+    <duzpUcto>2020-06-15</duzpUcto>
+    <datSplat/>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>PETRA s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>true</bezPolozek>
+    <sumOsv/>
+    <sumZklZakl>826.69</sumZklZakl>
+    <sumDphZakl>173.61</sumDphZakl>
+    <sumZklSniz/>
+    <sumDphSniz/>
+    <sumZklSniz2/>
+    <sumDphSniz2/>
+    <popis>Natural 95</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>20281200522592</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-05-22</datVyst>
+    <duzpPuv>2020-05-22</duzpPuv>
+    <duzpUcto>2020-05-22</duzpUcto>
+    <datSplat/>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>OMV Česká republika, s. r. o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>true</bezPolozek>
+    <sumOsv/>
+    <sumZklZakl>243.22</sumZklZakl>
+    <sumDphZakl>51.08</sumDphZakl>
+    <sumZklSniz/>
+    <sumDphSniz/>
+    <sumZklSniz2/>
+    <sumDphSniz2/>
+    <popis>Natural 95</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>002681</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-05-09</datVyst>
+    <duzpPuv>2020-05-09</duzpPuv>
+    <duzpUcto>2020-05-09</duzpUcto>
+    <datSplat/>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>MP TRADE INVEST, s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>Ba Natural</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>568.35</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>Ba Natural</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>002331</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-05-03</datVyst>
+    <duzpPuv>2020-05-03</duzpPuv>
+    <duzpUcto>2020-05-03</duzpUcto>
+    <datSplat/>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>MP TRADE INVEST, s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>Natural95</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>439.75</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>Natural95</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>002691</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-04-27</datVyst>
+    <duzpPuv>2020-04-27</duzpPuv>
+    <duzpUcto>2020-04-27</duzpUcto>
+    <datSplat/>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>MP TRADE INVEST, s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>Natural95</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>276.61</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>Natural95</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>000651</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-02-24</datVyst>
+    <duzpPuv>2020-02-24</duzpPuv>
+    <duzpUcto>2020-02-24</duzpUcto>
+    <datSplat/>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>MP TRADE INVEST, s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>Ba Natural 95</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>344.79</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>Ba Natural 95</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>19042020000621</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-04-19</datVyst>
+    <duzpPuv>2020-04-19</duzpPuv>
+    <duzpUcto>2020-04-19</duzpUcto>
+    <datSplat/>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>MP TRADE INVEST, s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>Ba Natural 95</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>413.47</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>Ba Natural 95</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>003091</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-04-08</datVyst>
+    <duzpPuv>2020-04-08</duzpPuv>
+    <duzpUcto>2020-04-08</duzpUcto>
+    <datSplat/>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>MP TRADE INVEST, s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>Ba Natural 95</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>440.66</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>Ba Natural 95</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>000571</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-04-03</datVyst>
+    <duzpPuv>2020-04-03</duzpPuv>
+    <duzpUcto>2020-04-03</duzpUcto>
+    <datSplat/>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>MP TRADE INVEST, s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>Natural 95</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>518.26</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>Natural 95</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>00129</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-04-06</datVyst>
+    <duzpPuv>2020-04-06</duzpPuv>
+    <duzpUcto>2020-04-06</duzpUcto>
+    <datSplat/>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>MP TRADE INVEST, s.r.o.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic/>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>Natural 95</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>230.25</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>Natural 95</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>2203261852</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-05-01</datVyst>
+    <duzpPuv>2020-05-01</duzpPuv>
+    <duzpUcto>2020-05-01</duzpUcto>
+    <datSplat/>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>Alza.cz a.s.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic>27082440</ic>
+    <dic>CZ27082440</dic>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>Externi box'AXAGON</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>1783.47</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>Externi box'AXAGON</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>1120089793</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-04-08</datVyst>
+    <duzpPuv>2020-04-08</duzpPuv>
+    <duzpUcto>2020-04-08</duzpUcto>
+    <datSplat/>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>INTERNET CZ, a.s.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic>26043319</dic>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>prodlou2ení domény</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>240.0</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>prodlou2ení domény</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>5200405867</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-04-24</datVyst>
+    <duzpPuv>2020-04-24</duzpPuv>
+    <duzpUcto>2020-04-24</duzpUcto>
+    <datSplat/>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>INTERNET CZ, a.s.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic>26043319</dic>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>prodlou2ení domény</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>265.0</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>prodlou2ení domény</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>5200405868</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-04-24</datVyst>
+    <duzpPuv>2020-04-24</duzpPuv>
+    <duzpUcto>2020-04-24</duzpUcto>
+    <datSplat/>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>INTERNET CZ, a.s.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic>26043319</dic>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>prodlou2ení domény</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>275.0</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>prodlou2ení domény</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>5200405866</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-04-24</datVyst>
+    <duzpPuv>2020-04-24</duzpPuv>
+    <duzpUcto>2020-04-24</duzpUcto>
+    <datSplat/>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>INTERNET CZ, a.s.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic>26043319</dic>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>prodlou2ení domény</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>240.0</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>prodlou2ení domény</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>1975695231</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-02-15</datVyst>
+    <duzpPuv>2020-02-15</duzpPuv>
+    <duzpUcto>2020-02-15</duzpUcto>
+    <datSplat>2020-02-15</datSplat>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>Alza.cz a.s.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic>27082440</ic>
+    <dic>CZ27082440</dic>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>Redukce EVOLVEO HDMI - VGA adapte r</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>276.03</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>Redukce EVOLVEO HDMI - VGA adapte r</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>5138074013</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-05-31</datVyst>
+    <duzpPuv>2020-05-31</duzpPuv>
+    <duzpUcto>2020-05-31</duzpUcto>
+    <datSplat>2020-06-23</datSplat>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>O2 Czech Republic a.s.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic>60193336</dic>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>Daňový přehled za vyúčtovan 6 slu 2 by</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>497.86</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>Daňový přehled za vyúčtovan 6 slu 2 by</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>1882766</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-05-04</datVyst>
+    <duzpPuv>2020-04-30</duzpPuv>
+    <duzpUcto>2020-04-30</duzpUcto>
+    <datSplat>2020-05-18</datSplat>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>MESSENGER a.s.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic>27575896</ic>
+    <dic/>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>Kurýrní slu 2 by - duben 2020</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>219.0</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>Kurýrní slu 2 by - duben 2020</popis>
+</faktura-vydana>
+<faktura-vydana>
+    <varSym>5138074003</varSym>
+    <cisObj/>
+    <typDokl>code:FAKTURA</typDokl>
+    <datVyst>2020-05-31</datVyst>
+    <duzpPuv>2020-05-31</duzpPuv>
+    <duzpUcto>2020-05-31</duzpUcto>
+    <datSplat>2020-06-23</datSplat>
+    <mena>code:CZK</mena>
+    <formaUhradyCis if-not-found="null">code:</formaUhradyCis>
+    <formaDopravy if-not-found="null">code:</formaDopravy>
+    <nazFirmy>O2 Czech Republic a.s.</nazFirmy>
+    <ulice/>
+    <mesto/>
+    <psc/>
+    <stat>code:CZ</stat>
+    <ic/>
+    <dic>60193336</dic>
+    <bezPolozek>false</bezPolozek>
+    <polozkyDokladu removeAll="true">
+        <faktura-vydana-polozka>
+            <nazev>Daňový přehled za vyúčtovan 6 slu 2 by</nazev>
+            <kod/>
+            <mnozMj>1</mnozMj>
+            <cenaMj>761.19</cenaMj>
+            <typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
+            <typCenyDphK>typCeny.bezDph</typCenyDphK>
+        </faktura-vydana-polozka>
+    </polozkyDokladu>
+    <popis>Daňový přehled za vyúčtovan 6 slu 2 by</popis>
+</faktura-vydana>
+</winstrom>

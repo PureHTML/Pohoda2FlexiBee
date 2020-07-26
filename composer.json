@@ -1,0 +1,25 @@
+{
+    "name": "purehtml/pohoda2flexibee",
+    "description": "PohodaXML to FlexiBee importer",
+    "type": "project",
+    "require": {
+        "spoje.net/flexibee": "^1.35",
+        "shanethehat/pretty-xml": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/php-code-coverage": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FlexiPeeHP\\Pohoda\\": "src/Pohoda/",
+            "Test\\FlexiPeeHP\\Pohoda\\": "testing/src/Pohoda/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vítězslav Dvořák",
+            "email": "info@vitexsoftware.cz"
+        }
+    ]
+}

@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" version="2.0" id="fa" ico="" application="Datamolino" note="Import FA">
+<dat:dataPackItem version="2.0" id="26.06.2020/00220/1 MP TRADE INVEST, s.r.o.">
+<inv:invoice version="2.0">
+    <inv:invoiceHeader>
+        <inv:invoiceType>receivedInvoice</inv:invoiceType>
+        <inv:intNote>https://app.datamolino.com/sk/documents/8777564</inv:intNote>
+        <inv:symVar>26062020002201</inv:symVar>
+        <inv:originalDocument>26.06.2020/00220/1</inv:originalDocument>
+        <inv:date>2020-06-26</inv:date>
+        <inv:dateTax>2020-06-26</inv:dateTax>
+        <inv:dateAccounting>2020-06-26</inv:dateAccounting>
+        <inv:dateDelivery>2020-06-26</inv:dateDelivery>
+        <inv:text>Ba Natural 95</inv:text>
+        <inv:partnerIdentity>
+            <typ:address linkToAddress="true">
+                <typ:company>MP TRADE INVEST, s.r.o.</typ:company>
+                <typ:icDph>CZ27180972</typ:icDph>
+            </typ:address>
+        </inv:partnerIdentity>
+        <inv:myIdentity>
+            <typ:address/>
+        </inv:myIdentity>
+    </inv:invoiceHeader>
+    
+    <inv:invoiceSummary>
+        <inv:roundingDocument>none</inv:roundingDocument>
+        <inv:roundingVAT>none</inv:roundingVAT>
+        <inv:homeCurrency>
+            <typ:priceHigh>600.25</typ:priceHigh>
+            <typ:priceHighVAT>126.05</typ:priceHighVAT>
+            <typ:priceHighSum>726.3</typ:priceHighSum>
+        </inv:homeCurrency>
+    </inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="0192/1/200626/279 UNIPETROL RPA, s.r.o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+    <inv:invoiceType>receivedInvoice</inv:invoiceType>
+    <inv:intNote>https://app.datamolino.com/sk/documents/8777563</inv:intNote>
+    <inv:symVar>01921200626279</inv:symVar>
+    <inv:originalDocument>0192/1/200626/279</inv:originalDocument>
+    <inv:date>2020-06-26</inv:date>
+    <inv:text>EFECTA 95</inv:text>
+    <inv:partnerIdentity>
+        <typ:address linkToAddress="true">
+            <typ:company>UNIPETROL RPA, s.r.o.</typ:company>
+            <typ:ico>27597075</typ:ico>
+            <typ:icDph>CZ699000139</typ:icDph>
+        </typ:address>
+    </inv:partnerIdentity>
+    <inv:myIdentity>
+        <typ:address/>
+    </inv:myIdentity>
+</inv:invoiceHeader>
+
+<inv:invoiceSummary>
+    <inv:roundingDocument>none</inv:roundingDocument>
+    <inv:roundingVAT>none</inv:roundingVAT>
+    <inv:homeCurrency>
+        <typ:priceHigh>611.57</typ:priceHigh>
+        <typ:priceHighVAT>128.43</typ:priceHighVAT>
+        <typ:priceHighSum>740.0</typ:priceHighSum>
+    </inv:homeCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="0244/1/200625/226 UNIPETROL RPA, s.r.o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777562</inv:intNote>
+<inv:symVar>02441200625226</inv:symVar>
+<inv:originalDocument>0244/1/200625/226</inv:originalDocument>
+<inv:date>2020-06-25</inv:date>
+<inv:dateTax>2020-06-25</inv:dateTax>
+<inv:dateAccounting>2020-06-25</inv:dateAccounting>
+<inv:dateDelivery>2020-06-25</inv:dateDelivery>
+<inv:text>EFECTA 95</inv:text>
+<inv:partnerIdentity>
+    <typ:address linkToAddress="true">
+        <typ:company>UNIPETROL RPA, s.r.o.</typ:company>
+        <typ:ico>27597075</typ:ico>
+        <typ:icDph>CZ699000139</typ:icDph>
+    </typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+    <typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:homeCurrency>
+    <typ:priceHigh>168.43</typ:priceHigh>
+    <typ:priceHighVAT>35.37</typ:priceHighVAT>
+    <typ:priceHighSum>203.8</typ:priceHighSum>
+</inv:homeCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="0087 RoBiN OIL s.r.o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777561</inv:intNote>
+<inv:symVar>0087</inv:symVar>
+<inv:originalDocument>0087</inv:originalDocument>
+<inv:date>2020-06-25</inv:date>
+<inv:text>Natura195</inv:text>
+<inv:partnerIdentity>
+    <typ:address linkToAddress="true">
+        <typ:company>RoBiN OIL s.r.o.</typ:company>
+        <typ:icDph>CZ49823574</typ:icDph>
+    </typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+    <typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:homeCurrency>
+    <typ:priceHigh>234.46</typ:priceHigh>
+    <typ:priceHighVAT>49.24</typ:priceHighVAT>
+    <typ:priceHighSum>283.7</typ:priceHighSum>
+</inv:homeCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id=" RoBiN OIL s.r.o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777560</inv:intNote>
+<inv:symVar>8777560</inv:symVar>
+<inv:date>2020-06-17</inv:date>
+<inv:text>RoBiN OIL s.r.o.</inv:text>
+<inv:partnerIdentity>
+    <typ:address linkToAddress="true">
+        <typ:company>RoBiN OIL s.r.o.</typ:company>
+        <typ:icDph>CZ49823574</typ:icDph>
+    </typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+    <typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:homeCurrency>
+    <typ:priceHigh>249.92</typ:priceHigh>
+    <typ:priceHighVAT>52.48</typ:priceHighVAT>
+    <typ:priceHighSum>302.4</typ:priceHighSum>
+</inv:homeCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="2101/2/200613/454 OMV Česká republika, s. r. o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777559</inv:intNote>
+<inv:symVar>21012200613454</inv:symVar>
+<inv:originalDocument>2101/2/200613/454</inv:originalDocument>
+<inv:date>2020-06-13</inv:date>
+<inv:text>MaxxMot1on 95</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+    <typ:company>OMV Česká republika, s. r. o.</typ:company>
+    <typ:icDph>CZ48038687</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:homeCurrency>
+<typ:priceHigh>182.15</typ:priceHigh>
+<typ:priceHighVAT>38.25</typ:priceHighVAT>
+<typ:priceHighSum>220.4</typ:priceHighSum>
+</inv:homeCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="0033 RoBiN OIL s.r.o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777558</inv:intNote>
+<inv:symVar>0033</inv:symVar>
+<inv:originalDocument>0033</inv:originalDocument>
+<inv:date>2020-06-11</inv:date>
+<inv:text>Natura195</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+    <typ:company>RoBiN OIL s.r.o.</typ:company>
+    <typ:icDph>CZ49823574</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:homeCurrency>
+<typ:priceHigh>247.77</typ:priceHigh>
+<typ:priceHighVAT>52.03</typ:priceHighVAT>
+<typ:priceHighSum>299.8</typ:priceHighSum>
+</inv:homeCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="24.05.2020/00055/1 MP TRADE INVEST, s.r.o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777557</inv:intNote>
+<inv:symVar>24052020000551</inv:symVar>
+<inv:originalDocument>24.05.2020/00055/1</inv:originalDocument>
+<inv:date>2020-05-24</inv:date>
+<inv:dateTax>2020-05-24</inv:dateTax>
+<inv:dateAccounting>2020-05-24</inv:dateAccounting>
+<inv:dateDelivery>2020-05-24</inv:dateDelivery>
+<inv:text>Natural 95</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>MP TRADE INVEST, s.r.o.</typ:company>
+<typ:icDph>CZ27180972</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:homeCurrency>
+<typ:priceHigh>693.88</typ:priceHigh>
+<typ:priceHighVAT>145.72</typ:priceHighVAT>
+<typ:priceHighSum>839.6</typ:priceHighSum>
+</inv:homeCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="15.06.2020/00021/1 PETRA s.r.o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777556</inv:intNote>
+<inv:symVar>15062020000211</inv:symVar>
+<inv:originalDocument>15.06.2020/00021/1</inv:originalDocument>
+<inv:date>2020-06-15</inv:date>
+<inv:dateTax>2020-06-15</inv:dateTax>
+<inv:dateAccounting>2020-06-15</inv:dateAccounting>
+<inv:dateDelivery>2020-06-15</inv:dateDelivery>
+<inv:text>Natural 95</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>PETRA s.r.o.</typ:company>
+<typ:icDph>CZ26496178</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:homeCurrency>
+<typ:priceHigh>826.69</typ:priceHigh>
+<typ:priceHighVAT>173.61</typ:priceHighVAT>
+<typ:priceHighSum>1000.3</typ:priceHighSum>
+</inv:homeCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="2028/1/200522/592 OMV Česká republika, s. r. o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777449</inv:intNote>
+<inv:symVar>20281200522592</inv:symVar>
+<inv:originalDocument>2028/1/200522/592</inv:originalDocument>
+<inv:date>2020-05-22</inv:date>
+<inv:text>Natural 95</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>OMV Česká republika, s. r. o.</typ:company>
+<typ:icDph>CZ48038687</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:homeCurrency>
+<typ:priceHigh>243.22</typ:priceHigh>
+<typ:priceHighVAT>51.08</typ:priceHighVAT>
+<typ:priceHighSum>294.3</typ:priceHighSum>
+</inv:homeCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="00268/1 MP TRADE INVEST, s.r.o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777448</inv:intNote>
+<inv:symVar>002681</inv:symVar>
+<inv:originalDocument>00268/1</inv:originalDocument>
+<inv:date>2020-05-09</inv:date>
+<inv:text>Ba Natural</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>MP TRADE INVEST, s.r.o.</typ:company>
+<typ:icDph>CZ27180972</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>Ba Natural</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>568.35</typ:unitPrice>
+<typ:price>568.35</typ:price>
+<typ:priceVAT>119.35</typ:priceVAT>
+<typ:priceSum>687.7</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>687.7</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="002331 MP TRADE INVEST, s.r.o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777446</inv:intNote>
+<inv:symVar>002331</inv:symVar>
+<inv:originalDocument>002331</inv:originalDocument>
+<inv:date>2020-05-03</inv:date>
+<inv:text>Natural95</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>MP TRADE INVEST, s.r.o.</typ:company>
+<typ:icDph>CZ27180972</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>Natural95</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>439.75</typ:unitPrice>
+<typ:price>439.75</typ:price>
+<typ:priceVAT>92.35</typ:priceVAT>
+<typ:priceSum>532.1</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>532.1</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="00269/1 MP TRADE INVEST, s.r.o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777445</inv:intNote>
+<inv:symVar>002691</inv:symVar>
+<inv:originalDocument>00269/1</inv:originalDocument>
+<inv:date>2020-04-27</inv:date>
+<inv:text>Natural95</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>MP TRADE INVEST, s.r.o.</typ:company>
+<typ:icDph>CZ27180972</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>Natural95</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>276.61</typ:unitPrice>
+<typ:price>276.61</typ:price>
+<typ:priceVAT>58.09</typ:priceVAT>
+<typ:priceSum>334.7</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>334.7</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="00065/1 MP TRADE INVEST, s.r.o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777444</inv:intNote>
+<inv:symVar>000651</inv:symVar>
+<inv:originalDocument>00065/1</inv:originalDocument>
+<inv:date>2020-02-24</inv:date>
+<inv:text>Ba Natural 95</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>MP TRADE INVEST, s.r.o.</typ:company>
+<typ:icDph>CZ27180972</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>Ba Natural 95</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>344.79</typ:unitPrice>
+<typ:price>344.79</typ:price>
+<typ:priceVAT>72.41</typ:priceVAT>
+<typ:priceSum>417.2</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>417.2</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="19.04.2020/00062/1 MP TRADE INVEST, s.r.o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777443</inv:intNote>
+<inv:symVar>19042020000621</inv:symVar>
+<inv:originalDocument>19.04.2020/00062/1</inv:originalDocument>
+<inv:date>2020-04-19</inv:date>
+<inv:text>Ba Natural 95</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>MP TRADE INVEST, s.r.o.</typ:company>
+<typ:icDph>CZ27180972</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>Ba Natural 95</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>413.47</typ:unitPrice>
+<typ:price>413.47</typ:price>
+<typ:priceVAT>86.83</typ:priceVAT>
+<typ:priceSum>500.3</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>500.3</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="00309/1 MP TRADE INVEST, s.r.o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777442</inv:intNote>
+<inv:symVar>003091</inv:symVar>
+<inv:originalDocument>00309/1</inv:originalDocument>
+<inv:date>2020-04-08</inv:date>
+<inv:text>Ba Natural 95</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>MP TRADE INVEST, s.r.o.</typ:company>
+<typ:icDph>CZ27180972</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>Ba Natural 95</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>440.66</typ:unitPrice>
+<typ:price>440.66</typ:price>
+<typ:priceVAT>92.54</typ:priceVAT>
+<typ:priceSum>533.2</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>533.2</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="00057/1 MP TRADE INVEST, s.r.o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777441</inv:intNote>
+<inv:symVar>000571</inv:symVar>
+<inv:originalDocument>00057/1</inv:originalDocument>
+<inv:date>2020-04-03</inv:date>
+<inv:text>Natural 95</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>MP TRADE INVEST, s.r.o.</typ:company>
+<typ:icDph>CZ27180972</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>Natural 95</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>518.26</typ:unitPrice>
+<typ:price>518.26</typ:price>
+<typ:priceVAT>108.84</typ:priceVAT>
+<typ:priceSum>627.1</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>627.1</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="00129A MP TRADE INVEST, s.r.o.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777440</inv:intNote>
+<inv:symVar>00129</inv:symVar>
+<inv:originalDocument>00129A</inv:originalDocument>
+<inv:date>2020-04-06</inv:date>
+<inv:text>Natural 95</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>MP TRADE INVEST, s.r.o.</typ:company>
+<typ:icDph>CZ27180972</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address/>
+</inv:myIdentity>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>Natural 95</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>230.25</typ:unitPrice>
+<typ:price>230.25</typ:price>
+<typ:priceVAT>48.35</typ:priceVAT>
+<typ:priceSum>278.6</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>278.6</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="2203261852 Alza.cz a.s.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8777439</inv:intNote>
+<inv:symVar>2203261852</inv:symVar>
+<inv:originalDocument>2203261852</inv:originalDocument>
+<inv:date>2020-05-01</inv:date>
+<inv:text>Externi box'AXAGON</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>Alza.cz a.s.</typ:company>
+<typ:ico>27082440</typ:ico>
+<typ:dic>CZ27082440</typ:dic>
+<typ:icDph>CZ27082440</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address/>
+</inv:myIdentity>
+<inv:paymentAccount>
+<typ:accountNo>CZ8603000000000188505042</typ:accountNo>
+<typ:bankCode>CEKOCZPP</typ:bankCode>
+</inv:paymentAccount>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>Externi box'AXAGON</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>1783.47</typ:unitPrice>
+<typ:price>1783.47</typ:price>
+<typ:priceVAT>374.53</typ:priceVAT>
+<typ:priceSum>2158.0</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>2158.0</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="cˇ.1120089793 INTERNET CZ, a.s.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8776471</inv:intNote>
+<inv:symVar>1120089793</inv:symVar>
+<inv:originalDocument>cˇ.1120089793</inv:originalDocument>
+<inv:date>2020-04-08</inv:date>
+<inv:dateTax>2020-04-08</inv:dateTax>
+<inv:dateAccounting>2020-04-08</inv:dateAccounting>
+<inv:dateDelivery>2020-04-08</inv:dateDelivery>
+<inv:text>prodlou2ení domény</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>INTERNET CZ, a.s.</typ:company>
+<typ:dic>26043319</typ:dic>
+<typ:icDph>CZ26043319</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address/>
+</inv:myIdentity>
+<inv:paymentAccount>
+<typ:accountNo>CZ5955000000000830809001</typ:accountNo>
+<typ:bankCode>RZBCCZPP</typ:bankCode>
+</inv:paymentAccount>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>prodlou2ení domény</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>240.0</typ:unitPrice>
+<typ:price>240.0</typ:price>
+<typ:priceVAT>50.4</typ:priceVAT>
+<typ:priceSum>290.4</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>290.4</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="cˇ.1120102331 INTERNET CZ, a.s.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8776470</inv:intNote>
+<inv:symVar>5200405867</inv:symVar>
+<inv:originalDocument>cˇ.1120102331</inv:originalDocument>
+<inv:date>2020-04-24</inv:date>
+<inv:dateTax>2020-04-24</inv:dateTax>
+<inv:dateAccounting>2020-04-24</inv:dateAccounting>
+<inv:dateDelivery>2020-04-24</inv:dateDelivery>
+<inv:text>prodlou2ení domény</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>INTERNET CZ, a.s.</typ:company>
+<typ:dic>26043319</typ:dic>
+<typ:icDph>CZ26043319</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address>
+<typ:company>Šimon FORMÁNEK</typ:company>
+<typ:ico>61029866</typ:ico>
+</typ:address>
+</inv:myIdentity>
+<inv:paymentAccount>
+<typ:accountNo>CZ5955000000000830809001</typ:accountNo>
+<typ:bankCode>RZBCCZPP</typ:bankCode>
+</inv:paymentAccount>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>prodlou2ení domény</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>265.0</typ:unitPrice>
+<typ:price>265.0</typ:price>
+<typ:priceVAT>55.65</typ:priceVAT>
+<typ:priceSum>320.65</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>320.65</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="cˇ.1120102327 INTERNET CZ, a.s.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8776469</inv:intNote>
+<inv:symVar>5200405868</inv:symVar>
+<inv:originalDocument>cˇ.1120102327</inv:originalDocument>
+<inv:date>2020-04-24</inv:date>
+<inv:dateTax>2020-04-24</inv:dateTax>
+<inv:dateAccounting>2020-04-24</inv:dateAccounting>
+<inv:dateDelivery>2020-04-24</inv:dateDelivery>
+<inv:text>prodlou2ení domény</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>INTERNET CZ, a.s.</typ:company>
+<typ:dic>26043319</typ:dic>
+<typ:icDph>CZ26043319</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address>
+<typ:company>Šimon FORMÁNEK</typ:company>
+<typ:ico>61029866</typ:ico>
+</typ:address>
+</inv:myIdentity>
+<inv:paymentAccount>
+<typ:accountNo>CZ5955000000000830809001</typ:accountNo>
+<typ:bankCode>RZBCCZPP</typ:bankCode>
+</inv:paymentAccount>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>prodlou2ení domény</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>275.0</typ:unitPrice>
+<typ:price>275.0</typ:price>
+<typ:priceVAT>57.75</typ:priceVAT>
+<typ:priceSum>332.75</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>332.75</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="cˇ.1120102330 INTERNET CZ, a.s.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8776468</inv:intNote>
+<inv:symVar>5200405866</inv:symVar>
+<inv:originalDocument>cˇ.1120102330</inv:originalDocument>
+<inv:date>2020-04-24</inv:date>
+<inv:dateTax>2020-04-24</inv:dateTax>
+<inv:dateAccounting>2020-04-24</inv:dateAccounting>
+<inv:dateDelivery>2020-04-24</inv:dateDelivery>
+<inv:text>prodlou2ení domény</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>INTERNET CZ, a.s.</typ:company>
+<typ:dic>26043319</typ:dic>
+<typ:icDph>CZ26043319</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address>
+<typ:company>Šimon FORMÁNEK</typ:company>
+<typ:ico>61029866</typ:ico>
+</typ:address>
+</inv:myIdentity>
+<inv:paymentAccount>
+<typ:accountNo>CZ5955000000000830809001</typ:accountNo>
+<typ:bankCode>RZBCCZPP</typ:bankCode>
+</inv:paymentAccount>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>prodlou2ení domény</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>240.0</typ:unitPrice>
+<typ:price>240.0</typ:price>
+<typ:priceVAT>50.4</typ:priceVAT>
+<typ:priceSum>290.4</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>290.4</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="2201141742 Alza.cz a.s.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8776466</inv:intNote>
+<inv:symVar>1975695231</inv:symVar>
+<inv:originalDocument>2201141742</inv:originalDocument>
+<inv:date>2020-02-15</inv:date>
+<inv:dateTax>2020-02-15</inv:dateTax>
+<inv:dateAccounting>2020-02-15</inv:dateAccounting>
+<inv:dateDue>2020-02-15</inv:dateDue>
+<inv:dateDelivery>2020-02-15</inv:dateDelivery>
+<inv:text>Redukce EVOLVEO HDMI - VGA adapte r</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>Alza.cz a.s.</typ:company>
+<typ:ico>27082440</typ:ico>
+<typ:dic>CZ27082440</typ:dic>
+<typ:icDph>CZ27082440</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address>
+<typ:company>15800 Praha 5 - Stodůlky</typ:company>
+</typ:address>
+</inv:myIdentity>
+<inv:paymentAccount>
+<typ:accountNo>CZ8603000000000188505042</typ:accountNo>
+<typ:bankCode>CEKOCZPP</typ:bankCode>
+</inv:paymentAccount>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>Redukce EVOLVEO HDMI - VGA adapte r</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>276.03</typ:unitPrice>
+<typ:price>276.03</typ:price>
+<typ:priceVAT>57.97</typ:priceVAT>
+<typ:priceSum>334.0</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>334.0</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="5138074013 O2 Czech Republic a.s.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8776438</inv:intNote>
+<inv:symVar>5138074013</inv:symVar>
+<inv:originalDocument>5138074013</inv:originalDocument>
+<inv:date>2020-05-31</inv:date>
+<inv:dateTax>2020-05-31</inv:dateTax>
+<inv:dateAccounting>2020-05-31</inv:dateAccounting>
+<inv:dateDue>2020-06-23</inv:dateDue>
+<inv:dateDelivery>2020-05-31</inv:dateDelivery>
+<inv:text>Daňový přehled za vyúčtovan 6 slu 2 by</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>O2 Czech Republic a.s.</typ:company>
+<typ:dic>60193336</typ:dic>
+<typ:icDph>CZ60193336</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address>
+<typ:company>Šimon FORMÁNEK</typ:company>
+<typ:ico>61029866</typ:ico>
+</typ:address>
+</inv:myIdentity>
+<inv:paymentAccount>
+<typ:accountNo>CZ1327000000000500114004</typ:accountNo>
+<typ:bankCode>BACXCZPP</typ:bankCode>
+</inv:paymentAccount>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>Daňový přehled za vyúčtovan 6 slu 2 by</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>497.86</typ:unitPrice>
+<typ:price>497.86</typ:price>
+<typ:priceVAT>104.55</typ:priceVAT>
+<typ:priceSum>602.41</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>602.41</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="1882766 MESSENGER a.s.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8776439</inv:intNote>
+<inv:symVar>1882766</inv:symVar>
+<inv:originalDocument>1882766</inv:originalDocument>
+<inv:date>2020-05-04</inv:date>
+<inv:dateTax>2020-04-30</inv:dateTax>
+<inv:dateAccounting>2020-04-30</inv:dateAccounting>
+<inv:dateDue>2020-05-18</inv:dateDue>
+<inv:dateDelivery>2020-04-30</inv:dateDelivery>
+<inv:text>Kurýrní slu 2 by - duben 2020</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>MESSENGER a.s.</typ:company>
+<typ:ico>27575896</typ:ico>
+<typ:icDph>CZ27575896</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address>
+<typ:company>Šimon FORMÁNEK</typ:company>
+<typ:ico>61029866</typ:ico>
+</typ:address>
+</inv:myIdentity>
+<inv:paymentAccount>
+<typ:accountNo>CZ4720100000002600473310</typ:accountNo>
+<typ:bankCode>FIOBCZPPXXX</typ:bankCode>
+</inv:paymentAccount>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>Kurýrní slu 2 by - duben 2020</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>219.0</typ:unitPrice>
+<typ:price>219.0</typ:price>
+<typ:priceVAT>45.99</typ:priceVAT>
+<typ:priceSum>264.99</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>264.99</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem version="2.0" id="5138074003 O2 Czech Republic a.s.">
+<inv:invoice version="2.0">
+<inv:invoiceHeader>
+<inv:invoiceType>receivedInvoice</inv:invoiceType>
+<inv:intNote>https://app.datamolino.com/sk/documents/8776437</inv:intNote>
+<inv:symVar>5138074003</inv:symVar>
+<inv:originalDocument>5138074003</inv:originalDocument>
+<inv:date>2020-05-31</inv:date>
+<inv:dateTax>2020-05-31</inv:dateTax>
+<inv:dateAccounting>2020-05-31</inv:dateAccounting>
+<inv:dateDue>2020-06-23</inv:dateDue>
+<inv:dateDelivery>2020-05-31</inv:dateDelivery>
+<inv:text>Daňový přehled za vyúčtovan 6 slu 2 by</inv:text>
+<inv:partnerIdentity>
+<typ:address linkToAddress="true">
+<typ:company>O2 Czech Republic a.s.</typ:company>
+<typ:dic>60193336</typ:dic>
+<typ:icDph>CZ60193336</typ:icDph>
+</typ:address>
+</inv:partnerIdentity>
+<inv:myIdentity>
+<typ:address>
+<typ:company>Šimon FORMÁNEK</typ:company>
+<typ:ico>61029866</typ:ico>
+</typ:address>
+</inv:myIdentity>
+<inv:paymentAccount>
+<typ:accountNo>CZ1327000000000500114004</typ:accountNo>
+<typ:bankCode>BACXCZPP</typ:bankCode>
+</inv:paymentAccount>
+</inv:invoiceHeader>
+<inv:invoiceDetail>
+<inv:invoiceItem>
+<inv:text>Daňový přehled za vyúčtovan 6 slu 2 by</inv:text>
+<inv:quantity>1</inv:quantity>
+<inv:payVAT>false</inv:payVAT>
+<inv:rateVAT>high</inv:rateVAT>
+<inv:foreignCurrency>
+<typ:unitPrice>761.19</typ:unitPrice>
+<typ:price>761.19</typ:price>
+<typ:priceVAT>157.96</typ:priceVAT>
+<typ:priceSum>919.15</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceItem>
+</inv:invoiceDetail>
+<inv:invoiceSummary>
+<inv:roundingDocument>none</inv:roundingDocument>
+<inv:roundingVAT>none</inv:roundingVAT>
+<inv:foreignCurrency>
+<typ:currency>
+<typ:ids>CZK</typ:ids>
+</typ:currency>
+<typ:amount>1</typ:amount>
+<typ:priceSum>919.15</typ:priceSum>
+</inv:foreignCurrency>
+</inv:invoiceSummary>
+</inv:invoice>
+</dat:dataPackItem>
+</dat:dataPack>
